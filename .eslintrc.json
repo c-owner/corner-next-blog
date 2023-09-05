@@ -28,6 +28,8 @@
         // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
     ],
     "rules": {
+        "react/self-closing-comp": "off",
+        "react/jsx-curly-brace-presence": "off",
         "react/button-has-type": "off",
         "react/react-in-jsx-scope": "off",
         // react 17부턴 import 안해도돼서 기능 끔
