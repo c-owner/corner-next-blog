@@ -1,3 +1,3 @@
 export default function ContactPage() {
-    return <>ContactPage</>;
+    return <section>ContactPage</section>;
 }

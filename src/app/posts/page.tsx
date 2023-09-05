@@ -1,3 +1,3 @@
 export default function PostsPage() {
-    return <>PostsPage</>;
+    return <section>PostsPage</section>;
 }
