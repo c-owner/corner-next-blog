@@ -28,6 +28,8 @@
         // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
     ],
     "rules": {
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
         "@typescript-eslint/no-use-before-define": "off",
         "react/function-component-definition": "off",
         "@typescript-eslint/no-unused-vars": "off",
@@ -45,7 +47,6 @@
                 "extensions": [".ts", ".tsx"]
             }
         ],
-        "no-useless-catch": "off"
-        // 불필요한 catch 못쓰게 하는 기능 끔
+        "no-useless-catch": "off" // 불필요한 catch 못쓰게 하는 기능 끔
     }
 }
