@@ -28,6 +28,7 @@
         // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
     ],
     "rules": {
+        "import/no-extraneous-dependencies": "off",
         "jsx-a11y/no-noninteractive-element-interactions": "off",
         "jsx-a11y/click-events-have-key-events": "off",
         "@typescript-eslint/no-use-before-define": "off",
