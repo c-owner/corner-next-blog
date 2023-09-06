@@ -29,6 +29,8 @@
     ],
     "rules": {
         "prettier/prettier": ["error", { "endOfLine": "auto" }],
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/no-autofocus": "off",
         "react/no-array-index-key": "off",
         "@typescript-eslint/no-shadow": "off",
         "react/no-unstable-nested-components": "off",
