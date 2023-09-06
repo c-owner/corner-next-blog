@@ -16,6 +16,4 @@ export default function PostContent({ post }: { post: PostData }) {
             <MarkdownViewer content={content} />
         </section>
     );
-    {
-    }
 }
