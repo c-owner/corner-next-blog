@@ -17,14 +17,14 @@ const LINKS = [
     },
     {
         icons: <AiFillMail />,
-        url: 'mailto:corner3499@kakao.com',
+        url: 'mailto:corner3499@gmail.com',
     },
 ];
 export default function ContactPage() {
     return (
         <section className="flex flex-col items-center">
             <h2 className="text-3xl font-bold my-2">Contact Me</h2>
-            <p>corner3499@kakao.com</p>
+            <p>corner3499@gmail.com</p>
             <ul className="flex gap-4 my-2">
                 {LINKS.map((link, index) => (
                     <li key={index}>

@@ -28,7 +28,9 @@
         // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
     ],
     "rules": {
-        "prettier/prettier": ["error", { "endOfLine": "auto" }],
+//        "prettier/prettier": ["error", { "endOfLine": "auto" }],
+        "import/prefer-default-export": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
         "jsx-a11y/label-has-associated-control": "off",
         "jsx-a11y/no-autofocus": "off",
         "react/no-array-index-key": "off",
