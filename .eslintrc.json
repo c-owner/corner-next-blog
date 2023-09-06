@@ -28,6 +28,8 @@
         // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
     ],
     "rules": {
+        "react/no-unstable-nested-components": "off",
+        "react/jsx-props-no-spreading": "off",
         "import/no-extraneous-dependencies": "off",
         "jsx-a11y/no-noninteractive-element-interactions": "off",
         "jsx-a11y/click-events-have-key-events": "off",
