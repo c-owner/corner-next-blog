@@ -28,6 +28,7 @@
         // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
     ],
     "rules": {
+        "@typescript-eslint/no-use-before-define": "off",
         "react/function-component-definition": "off",
         "@typescript-eslint/no-unused-vars": "off",
         "react/jsx-no-useless-fragment": "off",
