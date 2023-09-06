@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero';
 import FeaturePosts from '@/components/FeaturePosts';
+import CarouselPosts from '@/components/CarouselPosts';
 
 export default function HomePage() {
     return (
@@ -8,6 +9,7 @@ export default function HomePage() {
             <h1 className="text-6xl font-bold">Welcome to Corner's Blog</h1>
             <Hero />
             <FeaturePosts />
+            <CarouselPosts />
         </div>
     );
 }
