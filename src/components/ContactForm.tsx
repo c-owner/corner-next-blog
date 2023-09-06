@@ -18,7 +18,8 @@ export default function ContactForm() {
 
     const onSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // submit 후
+        // node mailer로 보내기
+
         setBanner({ message: 'Success!', state: 'success' });
         setTimeout(() => {
             setBanner(null);
