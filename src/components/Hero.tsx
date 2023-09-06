@@ -14,7 +14,7 @@ export default function Hero() {
                 priority
             />
             <h2 className="text-3xl font-bold mt-2">Hi, I'm Corner</h2>
-            <h3 className="text-xl font-semibold">Full-stack Enginner</h3>
+            <h3 className="text-xl font-semibold">Full-stack Engineer</h3>
             <p>효율을 중시하는 사람, dev-corner</p>
             <Link href="/contact">
                 <button className="bg-yellow-500 font-bold rounded-xl py-1 px-4 mt-2">Contact Me</button>
