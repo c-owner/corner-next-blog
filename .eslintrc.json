@@ -29,6 +29,7 @@
     ],
     "rules": {
         "prettier/prettier": ["error", { "endOfLine": "auto" }],
+        "react/no-array-index-key": "off",
         "@typescript-eslint/no-shadow": "off",
         "react/no-unstable-nested-components": "off",
         "react/jsx-props-no-spreading": "off",

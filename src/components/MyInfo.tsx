@@ -6,8 +6,8 @@ const H3_STYLE = 'text-xl font-bold py-3';
 const markdown = 'React - Next.js, Vue - Nuxt.js, Node - Express, Git, Clean Code, IntelliJ, VSCode, MySQL';
 export default function MyInfo() {
     return (
-        <article className="bg-gray-300 w-full mt-6">
-            <div className="text-center p-6">
+        <article className="bg-gray-100 w-full mt-6 shadow-lg">
+            <div className="text-center p-8">
                 <h3 className={H3_STYLE}>Who Am I?</h3>
                 <p className="text-sm md:text-md lg:text-lg">
                     개발을 좋아하는 풀스택 개발자
