@@ -1,6 +1,12 @@
 import { AiFillGithub, AiFillInstagram, AiFillMail } from 'react-icons/ai';
 import ContactForm from '@/components/ContactForm';
 import { FaBlogger } from 'react-icons/fa';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Contact Me | Corner',
+    description: 'Corner에게 연락하기',
+};
 
 const LINKS = [
     {

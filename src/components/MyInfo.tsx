@@ -28,7 +28,7 @@ export default function MyInfo() {
                 <div className="mx-auto mt-3 w-40 border-b-2 border-b-cyan-400"></div>
                 <h3 className={H3_STYLE}>Skills</h3>
                 <div>
-                    <ul className="text-sm md:text-md lg:text-lg">
+                    <ul className="text-sm md:text-md lg:text-lg flex items-center justify-center">
                         <li className="flex items-center justify-center">
                             <Image
                                 className="mr-3 sm:w-[28px] md:w-[38px]"
@@ -42,7 +42,16 @@ export default function MyInfo() {
                         <li>React, Next.js</li>
                         <li>Vue, Nuxt.js</li>
                         <li>Node, Express</li>
-                        <li>Git, Clean Code, IntelliJ, VSCode, MySQL</li>
+                        <li>MySQL</li>
+                        <li>Git, Clean Code, IntelliJ, VSCode</li>
+
+                        <Image
+                            className="mx-auto sm:max-w-sm max-w-md"
+                            src={'/logo_clear_fsj.png'}
+                            alt="my skills"
+                            width={100}
+                            height={100}
+                        />
                     </ul>
                 </div>
             </div>
